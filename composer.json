@@ -16,17 +16,17 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Hamstergeek\\BangunRuang": "src/"
+            "Hamstergeek\\BangunRuang\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
                 "Hamstergeek\\BangunRuang\\Providers\\BangunRuangServiceProvider"
-            ]
-        },
-        "aliases": {
-            "PersegiPanjang": "Hamstergeek\\BangunRuang\\Facades\\PersegiPanjang"
+            ],
+            "aliases": {
+                "PersegiPanjang": "Hamstergeek\\BangunRuang\\Facades\\PersegiPanjang"
+            }
         }
     }
 }

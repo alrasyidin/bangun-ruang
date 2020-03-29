@@ -13,7 +13,7 @@ class BangunRuangServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('persegi-panjang', \Hamstergeek\BangunRuang\Helpers\PersegiPanjang::class);
     }
 
     /**
