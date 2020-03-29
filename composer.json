@@ -1,0 +1,17 @@
+{
+    "name": "hamstergeek/bangun-ruang",
+    "description": "Library sederhana untunk menghitung bangun ruang",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "hamstergeek",
+            "email": "hamstergeek38@gmail.com"
+        }
+    ],
+    "prefer-stable": true
+}
