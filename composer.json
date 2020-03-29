@@ -13,5 +13,20 @@
             "email": "hamstergeek38@gmail.com"
         }
     ],
-    "prefer-stable": true
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Hamstergeek\\BangunRuang": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hamstergeek\\BangunRuang\\Providers\\BangunRuangServiceProvider"
+            ]
+        },
+        "aliases": {
+            "PersegiPanjang": "Hamstergeek\\BangunRuang\\Facades\\PersegiPanjang"
+        }
+    }
 }
